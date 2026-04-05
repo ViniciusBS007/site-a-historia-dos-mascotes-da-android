@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #83e1ae;
+    margin: 0px;
+    width: 100%;
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(#35BB72, #113d24);
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    padding-bottom: 15px;
+}
+
+#slogan{
+    color: aliceblue;
+}
+
+h1{
+    font-family: 'Idroid';
+    color: #1B5D41;
+}
+
+h2{
+    font-family: 'Idroid';
+    color: #1B5D41;
+    background: linear-gradient(to right, #DAF3E4, white);
+}
+
+nav{
+    text-align: left;
+    font-weight: bold;
+}
+
+nav > a{
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+}
+
+main{
+    background-color: white;
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: justify;
+}
+
+.paragrafo{
+    text-indent: 5%;
+}
+
+picture > img{
+    width: 100%;
+}
+
+.verde{
+    color: #35BB72;
+}
+
+.centro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#videoandroid{
+    background-color: #185B38;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+iframe{
+    width: 100%;
+}
+
+#lista{
+    background-color: #c5ebd7;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.listadasversoes{
+    display: inline-block;
+    margin-right: 125px;
+}
+
+a{
+    color: black;
+}
+
+li::before{
+    content: '✔';
+}
+
+#lista > p{
+    text-indent: 5%;
+    margin: 10px;
+}
+
+#destaque{
+    background-color: #35BB72;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer{
+    background-color: #185B38;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+footer > p{
+    margin: 0px;
+    text-align: center;
+}
