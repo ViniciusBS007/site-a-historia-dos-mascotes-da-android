@@ -125,6 +125,11 @@ li::before{
     border-radius: 10px 10px 0px 0px;
 }
 
+span{
+    font-weight: bold;
+    color: #35BB72;
+}
+
 footer{
     background-color: #185B38;
     color: white;
